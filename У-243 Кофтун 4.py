@@ -1,9 +1,9 @@
 m=int(input("Введите количество чисел "))
-fst=0
-snd=1
-dop=0
+f=0
+s=1
+d=0
 for i in range(m):
-    print(snd, end=' ')
-    dop=fst
-    fst=snd
-    snd+=dop
+    print(s, end=' ')
+    d=f
+    f=s
+    s+=d
