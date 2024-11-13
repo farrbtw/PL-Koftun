@@ -1,15 +1,15 @@
 #1
-def calculate_steps(number):
-  steps = 0
-  while number > 0:
-    sum_of_digits = sum(int(digit) for digit in str(number))
-    number -= sum_of_digits
-    steps += 1
-  return steps
+def calculate_steps(n):
+  s = 0
+  while n > 0:
+    sum_of_digits = sum(int(digit) for digit in str(n))
+    n -= sum_of_digit
+    s += 1
+  return s
 
-number = 77777
-steps = calculate_steps(number)
-print(f"Для числа {number} требуется {steps} шагов.")
+n = 77777
+s = calculate_steps(n)
+print(f"Для числа {n} требуется {s} шагов.")
 
 
 
